@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(websitebackground.jpg);
+    color: #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+.navbar {
+    background: rgba(74, 144, 226, 0.9); /* Soft blue */
+    padding: 15px 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: lightsalmon(255, 160, 122, 0.1);
+    box-shadow: 0 4px 10px rgba(218, 133, 152, 0.863);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: olive;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+    box-shadow: aquamarine;
+}
+
+nav ul li a:hover {
+    color: lightcoral; /* Light cyan */
+    transform: scale(1.1);
+}
+
+.about {
+    padding: 30px;
+    margin: 20px;
+}
+
+.card {
+    background: #BBDEFB; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.font {
+    font-family: 'Libre Baskerville', serif; 
+    font-style: italic;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 30px;
+    background: #C5CAE9; /* Light purple */
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project3 {
+    max-width: 70%; /* Adjusted size for Project 3 */
+    height: auto;
+    border-radius: 10px;
+}
+
+.responsive-img, .another-img {
+    max-width: 20%; 
+    height: auto;    
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-person {
+    background: #adddd9; /* Light teal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #83b4ec; /* Soft blue */
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
